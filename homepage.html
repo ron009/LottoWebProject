@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>Deathly Hallows | Lotto Website</title>
+<meta name="description"
+	content="We're here to spice up your lotto experience" />
+
+<!-- Just in case we're asked to view our website on a mobile device :D -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="HandheldFriendly" content="true" />
+<meta name="MobileOptimized" content="320" />
+
+<!-- Declarations of a bunch of stylesheets etc.. -->
+<!-- Bootstrap -->
+<link href="_include/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Main Style -->
+<link href="_include/css/main.css" rel="stylesheet">
+
+<!-- Supersized -->
+<link href="_include/css/supersized.css" rel="stylesheet">
+<link href="_include/css/supersized.shutter.css" rel="stylesheet">
+
+<!-- FancyBox -->
+<link href="_include/css/fancybox/jquery.fancybox.css" rel="stylesheet">
+
+<!-- Font Icons -->
+<link href="_include/css/fonts.css" rel="stylesheet">
+
+<!-- Shortcodes -->
+<link href="_include/css/shortcodes.css" rel="stylesheet">
+
+<!-- Responsive -->
+<link href="_include/css/bootstrap-responsive.min.css" rel="stylesheet">
+<link href="_include/css/responsive.css" rel="stylesheet">
+
+<!-- Supersized -->
+<link href="_include/css/supersized.css" rel="stylesheet">
+<link href="_include/css/supersized.shutter.css" rel="stylesheet">
+
+<!-- Google Font -->
+<link
+	href='http://fonts.googleapis.com/css?family=Titillium+Web:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900'
+	rel='stylesheet' type='text/css'>
+
+<!-- Fav Icon -->
+<link rel="shortcut icon" href="#">
+
+<link rel="apple-touch-icon" href="#">
+<link rel="apple-touch-icon" sizes="114x114" href="#">
+<link rel="apple-touch-icon" sizes="72x72" href="#">
+<link rel="apple-touch-icon" sizes="144x144" href="#">
+
+<!-- End stylesheet declarations -->
+
+<!-- Starting scripts to call before loading -->
+<!-- Modernizr -->
+<script src="_include/js/modernizr.js"></script>
+
+<!-- Analytics -->
+<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push([ '_setAccount', 'UA-53451780-1' ]);
+	_gaq.push([ '_trackPageview' ]);
+
+	(function() {
+		var ga = document.createElement('script');
+		ga.type = 'text/javascript';
+		ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl'
+				: 'http://www')
+				+ '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0];
+		s.parentNode.insertBefore(ga, s);
+	})();
+</script>
+<!-- End Analytics -->
+
+<!-- Login -->
+ <script src="_include/js/jquery-1.11.1.min.js"></script>
+    <link rel="stylesheet" href="_include/css/wtfdiary.css" type="text/css" />
+    <script type="text/javascript">
+$(document).ready(function(){
+	$("#login_appear").click(function(){
+        $("#shadow").fadeIn("normal");
+         $("#loginform").fadeIn("normal");
+         $("#uname").focus();
+    });
+	$("#login_hide").click(function(){
+        $("#loginform").fadeOut("normal");
+        $("#shadow").fadeOut();
+   });
+   $("#login").click(function(){
+    
+        alert("This is the Login Button");
+    });
+});
+</script>
+<!-- Login popup code ends here -->
+
+<!-- Ending script calling -->
+
+</head>
+
+<body>
+	<!-- Starting body code -->
+
+	<!-- This section is for Splash Screen -->
+	<div class="ole">
+		<section id="jSplash">
+			<div id="circle"></div>
+		</section>
+	</div>
+	<!-- End of Splash Screen -->
+
+    
+	<!-- Header -->
+	<header>
+		<div class="sticky-nav">
+			<a id="mobile-nav" class="menu-nav" href="#menu-nav"></a>
+
+			<div id="logo">
+				<a id="goUp" href="#home-slider"
+					title="Deathly Hallows | Lotto Website">Lotto Store</a>
+			</div>
+
+			<nav id="menu">
+				<ul id="menu-nav">
+					<li class="current"><a href="#home-slider">Home</a></li>
+					<li><a href="#about">About Us</a></li>
+					<li><a href="#rules">Game Rules</a></li>
+					<li><a href="#contact">Accreditation</a></li>
+					<li><a id="login_appear" href="#" class="external">Sign In</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<!-- End Header -->
+	
+	<!-- Login Appear -->
+		<div id="loginform">
+    	<form action="">
+			<label>User Name:</label>
+			<input type="text" id="uname" class="span3 input" />
+			<label>Password:</label>
+			<input type="password" id="password" class="span3 input" />
+			<br/>
+			<input type="submit" id="login" value="Login" />
+			<input type="button" id="login_hide" value="Cancel" />
+		</form>
+    </div>
+
+	<!-- Start "HomePage" -->
+	<div id="Home" class="page">
+		<div class="container">
+			<div class="row">
+				<div class="span12">
+					<div class="title-page">
+						<h4 class="title">Home</h4>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<!-- Start Profile -->
+				<div class="span5 profile">
+					<div class="image-wrap">
+						<div class="hover-wrap">
+							<span class="overlay-img"></span> <span
+								class="overlay-text-thumb">Store</span>
+						</div>
+						<img src="_include/img/store.png" alt="Our Store">
+					</div>
+					<h3 class="profile-name">Quel'Thalas</h3>
+					<p class="profile-description">The Hollow Store located at
+						Mt.Doom</p>
+					<a href="#"><i class="font-icon-social-facebook"></i> Visit us
+						on Facebook!</a>
+
+				</div>
+				<!-- End Profile -->
+				<!-- Start Accordion/Toggle Section -->
+				<div class="row">
+					<!-- Start Blockquote -->
+					<div class="span6">
+						<h3 class="spec">Deathly Hallows Lotto Shop</h3>
+						<blockquote>
+							<p>The greatest shit you'll ever see.</p>
+							<small> <cite title="Voldemort">-You Know Who</cite>
+							</small>
+						</blockquote>
+					</div>
+					<!-- End Blockquote -->
+					<div class="span6">
+
+						<!-- Start Accordion -->
+						<div class="accordion" id="accordionArea">
+							<div class="accordion-group">
+								<div class="accordion-heading accordionize">
+									<a class="accordion-toggle" data-toggle="collapse"
+										data-parent="#accordionArea" href="#oneArea"> Lotto Game
+										Info <span class="font-icon-arrow-simple-down"></span>
+									</a>
+								</div>
+								<div id="oneArea" class="accordion-body collapse">
+									<div class="accordion-inner">Ulol</div>
+								</div>
+							</div>
+
+							<div class="accordion-group">
+								<div class="accordion-heading accordionize">
+									<a class="accordion-toggle" data-toggle="collapse"
+										data-parent="#accordionArea" href="#twoArea"> Previous
+										Winning Numbers <span class="font-icon-arrow-simple-down"></span>
+									</a>
+								</div>
+								<div id="twoArea" class="accordion-body collapse">
+									<div class="accordion-inner">
+										<ul>
+											<li>July 1: Ulol</li>
+											<li>July 1: Ulol</li>
+											<li>July 1: Ulol</li>
+											<li>July 1:Ulol</li>
+											<li>Ulol</li>
+
+										</ul>
+
+									</div>
+								</div>
+							</div>
+
+							<div class="accordion-group">
+								<div class="accordion-heading accordionize">
+									<a class="accordion-toggle" data-toggle="collapse"
+										data-parent="#accordionArea" href="#threeArea"> Previous Winners <span
+										class="font-icon-arrow-simple-down"></span>
+									</a>
+								</div>
+								<div id="threeArea" class="accordion-body collapse">
+									<div class="accordion-inner">S</div>
+								</div>
+							</div>
+						</div>
+						<!-- End Accordion -->
+					</div>
+				</div>
+			</div>
+			<!-- end row -->
+
+		</div>
+		<!-- End homepage container -->
+	</div>
+	<!-- End Home -->
+
+
+
+
+	<!-- Js -->
+	<script src="_include/js/jquery-1.11.1.min.js"></script>
+	<!-- jQuery Core -->
+	<script src="_include/js/bootstrap.min.js"></script>
+	<!-- Bootstrap -->
+	<script src="_include/js/supersized.3.2.7.min.js"></script>
+	<!-- Slider -->
+	<script src="_include/js/waypoints.js"></script>
+	<!-- WayPoints -->
+	<script src="_include/js/waypoints-sticky.js"></script>
+	<!-- Waypoints for Header -->
+	<script src="_include/js/jquery.isotope.js"></script>
+	<!-- Isotope Filter -->
+	<script src="_include/js/jquery.fancybox.pack.js"></script>
+	<!-- Fancybox -->
+	<script src="_include/js/jquery.fancybox-media.js"></script>
+	<!-- Fancybox for Media -->
+	<script src="_include/js/plugins.js"></script>
+	<!-- Contains: jPreloader, jQuery Easing, jQuery ScrollTo, jQuery One Page Navi -->
+	<script src="_include/js/main.js"></script>
+	<!-- Default JS -->
+	<!-- End Js -->
+</body>
+</html>
